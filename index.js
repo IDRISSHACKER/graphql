@@ -6,6 +6,7 @@ const jwt = require("jsonwebtoken")
 const sql = require("sqlite3")
 require("dotenv").config()
 const schema = require("./Schemas")
+const userData = require("./data/MOCK_DATA.json")
 
 const app = express()
 app.use(bodyParser.json())
